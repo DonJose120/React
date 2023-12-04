@@ -1,0 +1,318 @@
+
+
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+/* .conta {
+	background-color: rgb(255, 255, 255);
+  padding-top: 10px;
+
+} */
+
+html, body {
+  font-family: "Rockwell";
+  
+}
+
+
+body {
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.container{
+  width: 120 0px;
+  height: auto;
+
+  margin: 0 auto;
+}
+
+.navbar{
+  width: 100%;
+  height: 50px;
+  background-color: #a1a1a1;
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.brand {
+  margin-left: 10px;
+}
+
+.nav-left {
+  display: flex;
+  margin-right: 10px;
+}
+
+
+.menu {
+
+  display: flex;
+  
+}
+.navitema a {
+  display: block;
+  padding: 17px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 68%;
+  position:absolute;
+  padding-top: 6px;
+ 
+   }
+.navitem a, .nav-right ul li a {
+  display: block;
+  padding: 17px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-right ul {
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  height: 550px;
+
+  background-size: 100%;
+}
+
+.redopacity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background-color: #bcbcbc;
+  color: #fff;
+}
+
+.redopacity h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.redopacity h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.desc {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.btn-default {
+  display: block;
+  color: #c10101;
+  padding: 15px 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 30px 0px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all ease 200ms;
+}
+
+.btn-default:hover {
+  background: #c10101;
+  color: #fff;
+}
+
+.conocercomo {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.arrow {
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.title-section h1 {
+  font-size: 2rem;
+}
+
+.title-section hr{
+  border-top: thin solid rgb(255, 0, 0);
+  width: 100%;
+  margin-top: 20px;
+}
+
+.seleccion {
+  display: flex;
+  justify-content: space-around;
+}
+
+.seleccion-item {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.2rem;
+
+}
+
+.seleccion-item h3 {
+  margin: 10px auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.seleccion-item p {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  text-align: center;
+  line-height: 1.1rem;
+}
+.seleccion-item img{
+  width: 200%;
+}
+
+.produccion {
+  display: flex;
+  justify-content: space-around;
+}
+
+.produccion-item {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  
+}
+
+.produccion-item img {
+  width: 100%;
+}
+
+.produccion-item p {
+  margin: 20px 0px;
+  color: #000000;
+  font-size: 1.2rem;
+  
+}
+
+.produccion-item a {
+  color: #f40000;
+  text-decoration: none;
+}
+
+.testimonios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.testimonio-item{
+  display: flex;
+  position: relative;
+  width: 27%;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(255, 0, 0, 0.2);
+  padding: 10px 10px;
+  margin-bottom: 30px;
+}
+
+.testimonio-item img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.testimonio-item h1 {
+  color: #ff0000;
+  font-size: 1.3rem;
+}
+.title-section h1 {
+  color: #fff;
+}
+
+.testimonio-item p {
+  color: #010101;
+  font-size: 1.1rem;
+}
+
+.stars {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  color: #c10101;
+}
+
+.footer {
+  display: flex;
+  background: #c10101;
+  color: #fff;
+  padding: 20px;
+  justify-content: center;
+}
+
+.menu-movil, .btn-menu-movil {
+  display: none;
+}
+
+.show {
+  display: block !important;
+
+}
